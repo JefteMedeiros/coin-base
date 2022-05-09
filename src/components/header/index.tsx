@@ -2,7 +2,7 @@ import React from "react";
 
 const header: React.FC = () => {
   return (
-    <div className="mt-[2.5rem] mx-[4.375rem] flex justify-between">
+    <div className="mt-[2.5rem] flex justify-between mx-[4.375rem]">
       <img src="images/coin-base.svg" alt="Coin Base Logo" />
       <ul className="flex gap-[2.625rem] items-center">
         <li className="li-link-hover"><a className="a-link-hover" href="#">Página principal</a></li>

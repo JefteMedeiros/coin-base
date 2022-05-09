@@ -18,10 +18,14 @@ body {
   @apply hover:scale-110 transition-all;
 }
 
+.li-link-hover img {
+  @apply hover:cursor-pointer;
+}
+
 .a-link-hover {
   @apply hover:underline-offset-4 hover:underline;
 }
 
 .purple-button {
-  @apply bg-purple-500 w-[9.25rem] h-[3.125rem] rounded-md hover:cursor-pointer;
+  @apply bg-purple-500 w-[9.25rem] h-[3.125rem] rounded-md
 }
