@@ -5,13 +5,13 @@ const header: React.FC = () => {
     <div className="mt-[2.5rem] mx-[4.375rem] flex justify-between">
       <img src="images/coin-base.svg" alt="Coin Base Logo" />
       <ul className="flex gap-[2.625rem] items-center">
-        <li className="hover:scale-110 transition-all"><a className="underline-offset-4 hover:underline" href="#">Página principal</a></li>
-        <li className="hover:scale-110 transition-all"><a className="underline-offset-4 hover:underline" href="#">Cotações</a></li>
-        <li className="hover:scale-110 transition-all"><a className="underline-offset-4 hover:underline" href="#">Tendencias</a></li>
-        <li className="hover:scale-110 transition-all">
+        <li className="li-link-hover"><a className="a-link-hover" href="#">Página principal</a></li>
+        <li className="li-link-hover"><a className="a-link-hover" href="#">Cotações</a></li>
+        <li className="li-link-hover"><a className="a-link-hover" href="#">Tendencias</a></li>
+        <li className="li-link-hover">
           <button
             type="button"
-            className="bg-purple-500 w-[9.25rem] h-[3.125rem] rounded-md"
+            className="purple-button"
           >
             Ver mais
           </button>
