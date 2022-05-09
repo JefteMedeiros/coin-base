@@ -7,7 +7,7 @@ const footer: React.FC = () => {
   return (
     <footer className="flex justify-between">
       <div className="absolute bottom-0 ">
-        <img src="images/canva-left.png" alt="Imagem footer esquerda" />
+        <img src="images/canva-left.png" className="w-[70%]" alt="Imagem footer esquerda" />
         <div className="absolute bottom-3 left-5">
           <h1 className="mb-1 text-lg">Mudar idioma</h1>
           <ul className="flex gap-3">
