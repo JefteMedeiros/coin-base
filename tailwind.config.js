@@ -11,7 +11,7 @@ module.exports = {
         'purple-400' : '#6022f2',
         'purple-500' : '#7640f5',
         'purple-600' : '#1b183f',
-      }
+      },
     },
   },
   plugins: [],

@@ -3,7 +3,12 @@ import React from 'react';
 const footer: React.FC = () => {
   return (
     <>
-      <h1>Footer</h1>
+      <div className='absolute bottom-0'>
+        <img src="images/canva-left.png" alt="" />
+      </div>
+      <div className='absolute bottom-0 right-0'>
+        <img src="images/canva-right.png" alt="" />
+      </div>
     </>
   );
 }
