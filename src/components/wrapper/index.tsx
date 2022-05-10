@@ -4,7 +4,7 @@ import WrapperRight from './wrapper-right';
 
 const Wrapper: React.FC = () => {
   return (
-    <div className="flex justify-between h-[31.25rem] mx-[4.375rem]">
+    <div className="flex justify-between min-h-[31.25rem] mt-[1rem] xl:mt-[6rem] mx-[4.375rem]">
       <WrapperLeft />
       <WrapperRight />
     </div>

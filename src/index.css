@@ -19,7 +19,7 @@ body {
 }
 
 .li-link-hover img {
-  @apply hover:cursor-pointer;
+  @apply hover:cursor-pointer hover:scale-110;
 }
 
 .a-link-hover {

@@ -12,6 +12,9 @@ module.exports = {
         'purple-500' : '#7640f5',
         'purple-600' : '#1b183f',
       },
+      gap : {
+        '30' : '30rem',
+      }
     },
   },
   plugins: [],
