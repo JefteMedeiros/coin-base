@@ -3,7 +3,7 @@ import React from "react";
 const WrapperLeft: React.FC = () => {
   return (
     <>
-      <div className="flex flex-col justify-start xl:mt-6 w-[33.5635rem]">
+      <div className="wrapper-left-container">
         <h1 className="bg-purple-600 px-5 py-2 rounded-full self-start">
           Praticidade e agilidade
         </h1>

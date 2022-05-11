@@ -1,10 +1,11 @@
 import React from 'react';
 import WrapperLeft from './wrapper-left';
 import WrapperRight from './wrapper-right';
+import '../../index.css';
 
 const Wrapper: React.FC = () => {
   return (
-    <div className="flex justify-between min-h-[31.25rem] mt-[1rem] xl:mt-[6rem] mx-[4.375rem]">
+    <div className="wrapper-container">
       <WrapperLeft />
       <WrapperRight />
     </div>

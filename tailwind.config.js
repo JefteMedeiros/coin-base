@@ -13,7 +13,7 @@ module.exports = {
         'purple-600' : '#1b183f',
       },
       gap : {
-        '30' : '30rem',
+        '8.75' : '8.75rem',
       }
     },
   },
