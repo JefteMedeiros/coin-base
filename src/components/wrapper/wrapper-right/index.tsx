@@ -3,7 +3,7 @@ import "../../../index.css";
 
 const WrapperRight: React.FC = () => {
   return (
-    <div className="w-full py-8 max-w-[31.25rem] px-9 xl:px-16 bg-background-secondary border-purple-400 border-2 rounded-[1.5rem]">
+    <div className="w-full py-8 max-w-[31.25rem] mb-10 px-5 xl:px-16 bg-background-secondary border-purple-400 border-2 rounded-[1.5rem]">
       <div className="mb-2">
         <label htmlFor="main_exchange">Moeda principal</label>
       </div>
