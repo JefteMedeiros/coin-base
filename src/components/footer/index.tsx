@@ -1,4 +1,4 @@
-import { Globe, GlobeStand } from "phosphor-react";
+import { Globe } from "phosphor-react";
 import React from "react";
 import "../../index.css";
 
@@ -36,8 +36,8 @@ const footer: React.FC = () => {
         </div>
       </div>
       <div className="mx-auto">
-        <h1 className="">
-          &copy; <span className="text-[#f5c92d]">Coin</span> base 2022
+        <h1 >
+          &copy; <span className="text-[#f5c92d]">Coin</span> base {date.getFullYear()}
         </h1>
       </div>
       <div className="hidden xl:block">
