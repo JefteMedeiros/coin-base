@@ -1,57 +1,47 @@
-import { Globe } from "phosphor-react";
 import React from "react";
+import { Globe } from "phosphor-react";
 import "../../index.css";
 
-const footer: React.FC = () => {
-  const date = new Date();
-
+const Footer: React.FC = () => {
   return (
-    <footer className="flex sticky items-center p-3 justify-between top-[100%] w-full">
+    <footer className="flex p-3 lg:px-10 m-auto max-w-[1360px] items-end justify-between">
       <div>
         <div className="flex flex-col">
-        <Globe
-          className="ml-2 text-purple-500 xl:hidden"
-          size={32}
-        />
-          <div className="hidden xl:flex flex-col">
+          <Globe className="ml-2 text-purple-500 lg:hidden" size={32} />
+          <div className="hidden lg:flex flex-col">
             <h1 className="mb-1">Mudar idioma</h1>
             <ul className="gap-3 flex">
-              <li className="hover:underline transition-all underline-offset-2 cursor-pointer hover:scale-105">
+              <li className="transition-all cursor-pointer hover:scale-105">
                 <img src="images/Brazil.png" alt="" />
               </li>
-              <li className="hover:underline transition-all underline-offset-2 cursor-pointer hover:scale-105">
+              <li className="transition-all cursor-pointer hover:scale-105">
                 <img src="images/USA.png" alt="" />
               </li>
-              <li className="hover:underline transition-all underline-offset-2 cursor-pointer hover:scale-105">
+              <li className="transition-all cursor-pointer hover:scale-105">
                 <img src="images/Spain.png" alt="" />
               </li>
-              <li className="hover:underline transition-all underline-offset-2 cursor-pointer hover:scale-105">
+              <li className="transition-all cursor-pointer hover:scale-105">
                 <img src="images/China.png" alt="" />
               </li>
-              <li className="hover:underline transition-all underline-offset-2 cursor-pointer hover:scale-105">
+              <li className="transition-all cursor-pointer hover:scale-105">
                 <img src="images/Ukraine.png" alt="" />
               </li>
             </ul>
           </div>
         </div>
       </div>
-      <div className="mx-auto">
-        <h1 >
-          &copy; <span className="text-[#f5c92d]">Coin</span> base {date.getFullYear()}
-        </h1>
-      </div>
-      <div className="hidden xl:block">
+      <div className="hidden lg:block">
         <ul className="flex gap-3">
-          <li className="hover:underline transition-all underline-offset-2 cursor-pointer hover:scale-105">
+          <li className="transition-all cursor-pointer hover:scale-105">
             Suporte
           </li>
-          <li className="hover:underline transition-all underline-offset-2 cursor-pointer hover:scale-105">
+          <li className="transition-all cursor-pointer hover:scale-105">
             Newsletter
           </li>
-          <li className="hover:underline transition-all underline-offset-2 cursor-pointer hover:scale-105">
+          <li className="transition-all cursor-pointer hover:scale-105">
             Doar
           </li>
-          <li className="hover:underline transition-all underline-offset-2 cursor-pointer hover:scale-105">
+          <li className="transition-all cursor-pointer hover:scale-105">
             Quem somos
           </li>
         </ul>
@@ -60,4 +50,4 @@ const footer: React.FC = () => {
   );
 };
 
-export default footer;
+export default Footer;

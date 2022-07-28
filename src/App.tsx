@@ -1,15 +1,12 @@
-import React from 'react';
-import Layout from './components/layout';
-import Wrapper from './components/wrapper';
+import Layout from './components/Layout'
+import Wrapper from './components/Wrapper'
 
-function App() {
+const App: React.FC = () => {
   return (
-    <>
-      <Layout>
-        <Wrapper />
-      </Layout>
-    </>
-  );
+   <Layout>
+     <Wrapper />
+   </Layout>
+  )
 }
 
-export default App;
+export default App
