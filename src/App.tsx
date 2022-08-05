@@ -1,5 +1,5 @@
 import Layout from './components/Layout'
-import Wrapper from './components/Wrapper'
+import Wrapper from './components/wrapper'
 
 const App: React.FC = () => {
   return (

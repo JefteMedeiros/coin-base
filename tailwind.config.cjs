@@ -16,6 +16,17 @@ module.exports = {
       },
       gap : {
         '8.75' : '8.75rem',
+      },
+      screens: {
+        'sm': '380px',
+  
+        'md': '768px',
+  
+        'lg': '1024px',
+  
+        'xl': '1280px',
+  
+        '2xl': '1536px',
       }
     },
   },

@@ -3,7 +3,7 @@ import { List } from "phosphor-react";
 
 const Header: React.FC = () => {
   return (
-    <div className="pt-6 flex m-auto max-w-[1360px] px-10 justify-between items-center">
+    <div className="pt-6 flex m-auto max-w-[1360px] px-4 lg:px-10 justify-between items-center">
       <a className="w-[7.5rem] sm:w-auto" href="#">
         <img
           className="hover:cursor-pointer hover:animate-pulse"
